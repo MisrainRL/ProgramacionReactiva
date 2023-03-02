@@ -11,7 +11,6 @@ namespace ProgramacionReactiva
             {
                 //.WriteLine($"{student.Name} was added, he is {student.Age} years old and his email is {student.Email}");
             };
-
             records.AddStudent("Juan", 20, "juan@mail.com");
             records.AddStudent("Maria", 18, "maria@mail.com");
             records.AddStudent("Carlos", 22, "carlos@mail.com");
@@ -23,9 +22,6 @@ namespace ProgramacionReactiva
             {
                 Console.WriteLine($"{student.Name} fue eliminad@.");
             };
-
-
-
             records.DeleteStudent(new Student() { Name = "Maria", 
                                     Age = 18, Email = "maria@mail.com" });
 
